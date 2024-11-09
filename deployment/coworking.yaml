@@ -71,6 +71,6 @@ spec:
             - name: DB_PASSWORD
               valueFrom:
                 secretKeyRef:
-                  name: postgresql-secret
-                  key: DB_PASSWORD
+                name: postgresql-secret
+                key: DB_PASSWORD
       restartPolicy: Always
