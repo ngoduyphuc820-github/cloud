@@ -4,6 +4,6 @@ metadata:
   name: postgresql-config
 data:
   DB_NAME: mydatabase
-  DB_USER: postgres
+  DB_USERNAME: postgres
   DB_HOST: postgresql-service
   DB_PORT: "5432"
