@@ -157,7 +157,7 @@ Please provide up to 3 sentences for each suggestion. Additional content in your
    - Retrieve an authentication token and authenticate your Docker client to your registry. Use the AWS CLI: aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 550927984835.dkr.ecr.us-east-1.amazonaws.com.
    - Create Resources in a Cluster: kubectl apply -f [filename.yaml].
    - Verify the creation of resources: kubectl get pods and kubectl get services.
-# 5. Setup 
+# 5. Setup CloudWatch
    - Step 1: Attach the CloudWatchAgentServerPolicy IAM policy to your worker nodes:
       aws iam attach-role-policy \
       --role-name my-worker-node-role \
